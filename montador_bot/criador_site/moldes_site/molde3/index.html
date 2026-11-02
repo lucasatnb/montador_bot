@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITULO}}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+{{CABECALHO}}
+    <main class="container">
+        <div id="home-view" class="view">
+            <section class="hero-description">
+                <h2>Nosso Catálogo</h2>
+                <p>Navegue pelas categorias e arraste para os lados para ver mais.</p>
+            </section>
+            <div id="categorias-container"></div>
+        </div>
+        <div id="detail-view" class="view escondido">
+            <div class="detalhe-container">
+                <button class="btn-voltar" id="btn-voltar" type="button">← Voltar ao catálogo</button>
+                <div id="detalhe-conteudo"></div>
+            </div>
+        </div>
+    </main>
+
+{{GAVETA}}
+{{RODAPE}}
+    <script src="dados.js"></script>
+    <script src="core.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

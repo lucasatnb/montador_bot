@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{TITULO}}</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+{{CABECALHO}}
+    <main class="main-split">
+        <div id="panel-left" class="panel panel-left">
+            <div id="vitrine-left" class="vitrine-container">
+                <h2 id="titulo-left" class="categoria-titulo"></h2>
+                <div id="lista-left" class="lista-produtos"></div>
+            </div>
+            <div id="detalhe-left" class="detalhe-container escondido"></div>
+        </div>
+        <div id="panel-right" class="panel panel-right">
+            <div id="vitrine-right" class="vitrine-container">
+                <h2 id="titulo-right" class="categoria-titulo"></h2>
+                <div id="lista-right" class="lista-produtos"></div>
+            </div>
+            <div id="detalhe-right" class="detalhe-container escondido"></div>
+        </div>
+    </main>
+
+{{GAVETA}}
+{{RODAPE}}
+    <script src="dados.js"></script>
+    <script src="core.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

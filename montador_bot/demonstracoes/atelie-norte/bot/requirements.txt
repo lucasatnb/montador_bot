@@ -1,0 +1,4 @@
+requests
+rapidfuzz
+streamlit
+pandas

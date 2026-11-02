@@ -1,0 +1,75 @@
+{
+  "tipos": {
+    "tamanho": {
+      "rotulo": "Tamanho",
+      "opcoes": {
+        "P": "P",
+        "M": "M",
+        "G": "G",
+        "GG": "GG",
+        "XG": "XG",
+        "XXG": "XXG"
+      }
+    },
+    "numeracao": {
+      "rotulo": "Numeração",
+      "opcoes": {
+        "33": "33",
+        "34": "34",
+        "35": "35",
+        "36": "36",
+        "37": "37",
+        "38": "38",
+        "39": "39",
+        "40": "40",
+        "41": "41",
+        "42": "42",
+        "43": "43",
+        "44": "44"
+      }
+    },
+    "cor": {
+      "rotulo": "Cor",
+      "opcoes": {
+        "Preto": "PT",
+        "Branco": "BR",
+        "Azul": "AZ",
+        "Verde": "VD",
+        "Vermelho": "VM",
+        "Amarelo": "AM",
+        "Rosa": "RS",
+        "Cinza": "CZ",
+        "Bege": "BG",
+        "Marrom": "MR",
+        "Laranja": "LJ",
+        "Roxo": "RX"
+      }
+    },
+    "borda": {
+      "rotulo": "Borda",
+      "opcoes": {
+        "Sem borda": "SB",
+        "Catupiry": "CT",
+        "Cheddar": "CH"
+      }
+    }
+  },
+  "sinonimos": {
+    "preta": "Preto",
+    "branca": "Branco",
+    "azulzinho": "Azul",
+    "verdinho": "Verde",
+    "vermelha": "Vermelho",
+    "amarela": "Amarelo",
+    "cinza": "Cinza",
+    "bege": "Bege",
+    "marrom": "Marrom",
+    "laranja": "Laranja",
+    "roxa": "Roxo",
+    "p": "P",
+    "m": "M",
+    "g": "G",
+    "gg": "GG",
+    "xg": "XG"
+  }
+}

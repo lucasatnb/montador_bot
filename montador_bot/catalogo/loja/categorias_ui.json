@@ -1,0 +1,102 @@
+{
+  "Camisetas": [
+    "tamanho",
+    "cor"
+  ],
+  "Camisas": [
+    "tamanho",
+    "cor"
+  ],
+  "Polos": [
+    "tamanho",
+    "cor"
+  ],
+  "Regatas": [
+    "tamanho",
+    "cor"
+  ],
+  "Calças": [
+    "tamanho",
+    "cor"
+  ],
+  "Shorts": [
+    "tamanho",
+    "cor"
+  ],
+  "Bermudas": [
+    "tamanho",
+    "cor"
+  ],
+  "Jaquetas": [
+    "tamanho",
+    "cor"
+  ],
+  "Moletons": [
+    "tamanho",
+    "cor"
+  ],
+  "Tênis": [
+    "numeracao",
+    "cor"
+  ],
+  "Sapatos": [
+    "numeracao",
+    "cor"
+  ],
+  "Sandálias": [
+    "numeracao",
+    "cor"
+  ],
+  "Chinelos": [
+    "numeracao",
+    "cor"
+  ],
+  "Botas": [
+    "numeracao",
+    "cor"
+  ],
+  "Bonés": [
+    "cor"
+  ],
+  "Cintos": [
+    "cor"
+  ],
+  "Carteiras": [
+    "cor"
+  ],
+  "Relógios": [
+    "cor"
+  ],
+  "Óculos": [
+    "cor"
+  ],
+  "Vestidos": [
+    "tamanho",
+    "cor"
+  ],
+  "Blusas": [
+    "tamanho",
+    "cor"
+  ],
+  "Saias": [
+    "tamanho",
+    "cor"
+  ],
+  "Croppeds": [
+    "tamanho",
+    "cor"
+  ],
+  "Casacos": [
+    "tamanho",
+    "cor"
+  ],
+  "Bolsas": [
+    "cor"
+  ],
+  "Brincos": [
+    "cor"
+  ],
+  "Colares": [
+    "cor"
+  ]
+}

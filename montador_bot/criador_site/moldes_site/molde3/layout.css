@@ -1,0 +1,12 @@
+/* Molde 3 -- 3 ou mais categorias: um carrossel horizontal por categoria */
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+.hero-description { margin-bottom: 30px; }
+.carousel-section { margin-bottom: 40px; }
+.carousel-title { font-size: 1.3rem; margin-bottom: 15px; color: var(--texto-fundo); border-bottom: 2px solid var(--borda-fundo); padding-bottom: 5px; }
+.carousel { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; gap: 15px; padding-bottom: 15px; scroll-behavior: smooth; }
+.carousel::-webkit-scrollbar { height: 6px; }
+.carousel::-webkit-scrollbar-thumb { background: var(--borda-fundo); border-radius: 4px; }
+.card-produto { flex: 0 0 200px; width: 200px; min-width: 0; scroll-snap-align: start; text-align: center; }
+.card-produto img { width: 100%; height: 150px; margin-bottom: 10px; }
+.card-produto h3 { font-size: 1rem; margin-bottom: 5px; }
+.card-produto p { font-size: 0.8rem; margin-bottom: 10px; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }

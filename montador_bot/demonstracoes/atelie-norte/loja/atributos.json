@@ -1,0 +1,36 @@
+{
+  "tipos": {
+    "tamanho": {
+      "rotulo": "Tamanho",
+      "opcoes": {
+        "P": "P",
+        "M": "M",
+        "G": "G",
+        "GG": "GG"
+      }
+    },
+    "cor": {
+      "rotulo": "Cor",
+      "opcoes": {
+        "Off White": "OW",
+        "Preto": "PT",
+        "Azul": "AZ",
+        "Caqui": "CQ",
+        "Verde": "VD",
+        "Branco": "BR",
+        "Marrom": "MR"
+      }
+    },
+    "numeracao": {
+      "rotulo": "Numeração",
+      "opcoes": {
+        "39": "39",
+        "40": "40",
+        "41": "41",
+        "42": "42",
+        "43": "43"
+      }
+    }
+  },
+  "sinonimos": {}
+}

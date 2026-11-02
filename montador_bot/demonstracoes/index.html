@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Demonstrações — catálogo + atendente</title>
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f4f1ea; color: #1d2a26; }
+  header { max-width: 1000px; margin: 0 auto; padding: 50px 24px 20px; }
+  h1 { font-family: Georgia, serif; font-size: clamp(2rem, 5vw, 3.4rem); margin: 0 0 10px; letter-spacing: -1px; }
+  header p { color: #5c6b66; max-width: 640px; line-height: 1.55; }
+  .grid { max-width: 1000px; margin: 20px auto 60px; padding: 0 24px; display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 20px; }
+  .card { background: #fff; border: 1px solid #ddd8cd; border-radius: 12px; overflow: hidden; text-decoration: none; color: inherit; box-shadow: 0 6px 18px rgba(0,0,0,.06); transition: transform .2s; }
+  .card:hover { transform: translateY(-4px); }
+  .card-top { height: 110px; display: flex; align-items: flex-end; padding: 16px; color: #fff; font-weight: 700; font-size: 1.3rem; }
+  .card-body { padding: 16px; }
+  .card-body p { margin: 0 0 12px; color: #5c6b66; font-size: .9rem; }
+  .card-body strong { color: #0d7c6b; }
+  .nota { max-width: 1000px; margin: 0 auto 40px; padding: 0 24px; color: #7d8a85; font-size: .8rem; }
+</style></head>
+<body>
+<header>
+  <h1>Demonstrações</h1>
+  <p>Três lojas fictícias com catálogo, site e bot de atendimento. Clique para abrir a vitrine.
+  Os dados são de demonstração; troque WhatsApp, PIX e produtos antes de usar com um cliente.</p>
+</header>
+<div class="grid">
+        <a class="card" href="otica-visione/site/index.html">
+          <div class="card-top" style="background:#1F5C4A">
+            <span>Visioné Ótica</span>
+          </div>
+          <div class="card-body">
+            <p>Ótica com orçamento e visita</p>
+            <strong>Abrir demonstração →</strong>
+          </div>
+        </a>
+        <a class="card" href="atelie-norte/site/index.html">
+          <div class="card-top" style="background:#B55236">
+            <span>Ateliê Norte</span>
+          </div>
+          <div class="card-body">
+            <p>Catálogo com pedido no WhatsApp</p>
+            <strong>Abrir demonstração →</strong>
+          </div>
+        </a>
+        <a class="card" href="bicho-e-cia/site/index.html">
+          <div class="card-top" style="background:#2F7D6B">
+            <span>Bicho & Cia</span>
+          </div>
+          <div class="card-body">
+            <p>Catálogo com pedido no WhatsApp</p>
+            <strong>Abrir demonstração →</strong>
+          </div>
+        </a></div>
+<p class="nota">Imagens ilustrativas. Para o cliente real, use fotos dos produtos dele. O bot de cada loja está em <code>bot/</code> com instruções no <code>COMO-USAR.md</code>.</p>
+</body></html>

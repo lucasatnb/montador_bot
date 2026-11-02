@@ -1,0 +1,22 @@
+/* Molde 4 -- muitas categorias e muitos itens: busca + abas + grade */
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+.hero-description { margin-bottom: 20px; }
+.search-container { margin-bottom: 20px; }
+.search-container input {
+    width: 100%; padding: 14px 20px; font-size: 1rem; border: 1px solid var(--borda-fundo); border-radius: 8px; outline: none;
+    background: var(--cor-secundaria); color: var(--texto-sec); box-shadow: var(--sombra); transition: border-color 0.2s;
+}
+.search-container input:focus { border-color: var(--cor-destaque); }
+.tabs-container { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px; margin-bottom: 20px; }
+.tabs-container::-webkit-scrollbar { height: 4px; }
+.tabs-container::-webkit-scrollbar-thumb { background: var(--borda-fundo); border-radius: 4px; }
+.tab-btn {
+    padding: 10px 20px; background: var(--cor-secundaria); border: 1px solid var(--borda); border-radius: 20px; cursor: pointer;
+    font-weight: 700; color: var(--texto-sec); white-space: nowrap; transition: all 0.2s;
+}
+.tab-btn.ativo { background: var(--cor-destaque); color: var(--texto-destaque); border-color: var(--cor-destaque); }
+.produtos-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; }
+.card-produto { text-align: center; display: flex; flex-direction: column; justify-content: space-between; }
+.card-produto img { width: 100%; height: 140px; margin-bottom: 10px; }
+.card-produto h3 { font-size: 1rem; margin-bottom: 5px; }
+.card-produto p { font-size: 0.8rem; margin-bottom: 10px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }

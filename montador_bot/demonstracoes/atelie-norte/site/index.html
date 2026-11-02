@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ateliê Norte</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><img src="logo.svg" alt=""><span>Ateliê Norte</span></div>
+        <button id="btn-carrinho" class="carrinho-icon" aria-label="Abrir carrinho">🛒 <span id="cart-count">0</span></button>
+    </header>
+
+    <main class="container">
+        <div id="home-view" class="view">
+            <section class="hero-description">
+                <h2>Nosso Catálogo Completo</h2>
+                <p>Encontre o que deseja buscando pelo nome ou filtrando por categoria.</p>
+            </section>
+            <div class="search-container">
+                <input type="text" id="input-busca" placeholder="🔍 O que você está procurando?" autocomplete="off">
+            </div>
+            <div id="tabs-container" class="tabs-container"></div>
+            <div id="produtos-grid" class="produtos-grid"></div>
+        </div>
+        <div id="detail-view" class="view escondido">
+            <div class="detalhe-container">
+                <button class="btn-voltar" id="btn-voltar" type="button">← Voltar ao catálogo</button>
+                <div id="detalhe-conteudo"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Gaveta do carrinho -->
+    <div id="gaveta-carrinho" class="gaveta escondido">
+        <div class="gaveta-cabecalho">
+            <h2>Carrinho</h2>
+            <button id="fechar-carrinho" class="btn-fechar" aria-label="Fechar">&times;</button>
+        </div>
+        <div id="itens-carrinho" class="itens-carrinho"></div>
+        <div class="gaveta-rodape">
+            <div class="total-linha"><span>Total:</span><span id="valor-total">R$ 0,00</span></div>
+            <button id="btn-finalizar" class="btn-principal" type="button">Pedir no WhatsApp</button>
+        </div>
+    </div>
+    <div id="toast" class="toast escondido">Adicionado ao carrinho!</div>
+
+    <footer class="rodape">
+        <span class="rodape-nome" id="rodape-nome"></span>
+        <a class="rodape-zap" id="rodape-zap" href="#" target="_blank" rel="noopener">Pedir no WhatsApp</a>
+    </footer>
+    <script>
+    window.addEventListener("load", function () {
+        var L = window.LOJA || {};
+        var n = document.getElementById("rodape-nome");
+        if (n) n.textContent = L.nome || "";
+        var a = document.getElementById("rodape-zap");
+        if (a) {
+            if (L.whatsapp) {
+                var texto = L.mensagem_inicial || "Olá! Vim pelo site e gostaria de mais informações.";
+                a.href = "https://wa.me/" + L.whatsapp + "?text=" + encodeURIComponent(texto);
+            } else if (L.telegram) {
+                a.textContent = "Falar no Telegram";
+                a.href = "https://t.me/" + L.telegram;
+            } else {
+                a.style.display = "none";
+            }
+        }
+    });
+    </script>
+
+    <script src="dados.js"></script>
+    <script src="core.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
