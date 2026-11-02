@@ -1,0 +1,28 @@
+Bot da loja: Ateliê Norte
+(montado pelo montador_bot)
+
+COMO USAR
+  iniciar_bot.bat       liga o bot no canal escolhido em bot_config.json ("canal")
+  abrir_painel.bat      painel do dono: comandas, mensagens, catálogo (adicionar, editar, remover produtos) e estoque
+  alterar_loja.bat      mudança simples: preço, nome, descrição e categoria dos produtos
+
+CANAIS (campo "canal" do bot_config.json; cada um também roda direto com python <arquivo>)
+  telegram              telegram_bot.py           só para testes, não precisa de servidor
+  whatsapp_oficial      whatsapp_oficial.py       Cloud API da Meta; precisa de URL pública HTTPS para o webhook
+  whatsapp_nao_oficial  whatsapp_nao_oficial.py   via Evolution API (QR code); risco de banimento, só para teste
+  O passo a passo de cada um está no começo do próprio arquivo .py.
+
+LIGAR O SITE AO TELEGRAM
+  Botão do site abre:  https://t.me/SEU_BOT?start=<carrinho>
+  <carrinho> = o mesmo código do WhatsApp, com "-" no lugar de "," (o Telegram não aceita vírgula).
+  Ex.: https://t.me/SEU_BOT?start=2A001_PR_G-1A000_VE_M   (limite: 64 caracteres no carrinho).
+  Carrinho maior: o site copia o código e abre https://t.me/SEU_BOT; o cliente cola na conversa.
+
+CONFIGURAÇÃO
+  Tudo que muda de uma loja para outra está em bot_config.json: token, vendedores, PIX, textos,
+  anti-spam e a pasta da loja. Pode editar com o bloco de notas; feche e abra o bot para valer.
+  Variáveis de ambiente (TELEGRAM_TOKEN, PIX_CHAVE...) têm prioridade sobre o arquivo.
+
+CUIDADO
+  bot_config.json tem o token do bot: não envie esta pasta para ninguém sem apagar o token antes.
+  comandas.db e mensagens.db (criados quando o bot roda) têm dados de clientes.

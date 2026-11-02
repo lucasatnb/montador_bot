@@ -1,0 +1,8 @@
+# Configurações locais (token do bot!)
+bot_config.json
+**/bot_config.json
+
+# A loja do catálogo tem dados reais do cliente
+catalogo/loja/config.json
+catalogo/loja/*.db
+catalogo/loja/imagens/

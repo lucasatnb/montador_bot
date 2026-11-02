@@ -1,0 +1,17 @@
+{
+  "tipos": {
+    "cor": {
+      "rotulo": "Cor",
+      "opcoes": {
+        "Preto": "PT",
+        "Tartaruga": "TT",
+        "Dourado": "DR",
+        "Prata": "PR",
+        "Azul": "AZ",
+        "Rosa": "RS",
+        "Marrom": "MR"
+      }
+    }
+  },
+  "sinonimos": {}
+}

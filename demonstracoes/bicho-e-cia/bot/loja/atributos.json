@@ -1,0 +1,26 @@
+{
+  "tipos": {
+    "tamanho": {
+      "rotulo": "Tamanho",
+      "opcoes": {
+        "P": "P",
+        "M": "M",
+        "G": "G"
+      }
+    },
+    "cor": {
+      "rotulo": "Cor",
+      "opcoes": {
+        "Preto": "PT",
+        "Marrom": "MR",
+        "Verde": "VD",
+        "Laranja": "LJ",
+        "Cinza": "CZ",
+        "Bege": "BG",
+        "Azul": "AZ",
+        "Vermelho": "VM"
+      }
+    }
+  },
+  "sinonimos": {}
+}

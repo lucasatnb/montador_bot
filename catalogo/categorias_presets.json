@@ -1,0 +1,175 @@
+{
+  "moda_masculina": {
+    "nome": "Moda masculina",
+    "grupos": {
+      "Roupas": ["Camisetas", "Camisas", "Polos", "Regatas", "Calças", "Shorts", "Bermudas", "Jaquetas", "Moletons"],
+      "Calçados": ["Tênis", "Sapatos", "Sandálias", "Chinelos", "Botas"],
+      "Acessórios": ["Bonés", "Cintos", "Carteiras", "Relógios", "Óculos"]
+    },
+    "categorias": [
+      {"nome": "Camisetas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Camisas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Polos", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Regatas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Calças", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Shorts", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Bermudas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Jaquetas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Moletons", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Tênis", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sapatos", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sandálias", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Chinelos", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Botas", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Bonés", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Cintos", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Carteiras", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Relógios", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Óculos", "grupo": "Acessórios", "atributos": ["cor"]}
+    ]
+  },
+  "moda_feminina": {
+    "nome": "Moda feminina",
+    "grupos": {
+      "Roupas": ["Vestidos", "Blusas", "Saias", "Calças", "Shorts", "Croppeds", "Casacos"],
+      "Calçados": ["Sandálias", "Sapatos", "Tênis", "Botas"],
+      "Acessórios": ["Bolsas", "Brincos", "Colares", "Cintos"]
+    },
+    "categorias": [
+      {"nome": "Vestidos", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Blusas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Saias", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Calças", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Shorts", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Croppeds", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Casacos", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Sandálias", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sapatos", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Tênis", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Botas", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Bolsas", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Brincos", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Colares", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Cintos", "grupo": "Acessórios", "atributos": ["cor"]}
+    ]
+  },
+  "moda_infantil": {
+    "nome": "Moda infantil",
+    "grupos": {
+      "Roupas": ["Camisetas", "Conjuntos", "Vestidos", "Shorts", "Calças"],
+      "Calçados": ["Tênis", "Sandálias", "Sapatinhos"],
+      "Acessórios": ["Toucas", "Meias", "Mochilas"]
+    },
+    "categorias": [
+      {"nome": "Camisetas", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Conjuntos", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Vestidos", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Shorts", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Calças", "grupo": "Roupas", "atributos": ["tamanho", "cor"]},
+      {"nome": "Tênis", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sandálias", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sapatinhos", "grupo": "Calçados", "atributos": ["numeracao", "cor"]},
+      {"nome": "Toucas", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Meias", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Mochilas", "grupo": "Acessórios", "atributos": ["cor"]}
+    ]
+  },
+  "calcados": {
+    "nome": "Loja de calçados",
+    "grupos": {
+      "Masculino": ["Tênis", "Sapatos", "Sandálias", "Chinelos", "Botas"],
+      "Feminino": ["Tênis", "Sapatos", "Sandálias", "Rasteiras", "Botas"],
+      "Infantil": ["Tênis", "Sandálias", "Sapatinhos"]
+    },
+    "categorias": [
+      {"nome": "Tênis", "grupo": "Masculino", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sapatos", "grupo": "Masculino", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sandálias", "grupo": "Masculino", "atributos": ["numeracao", "cor"]},
+      {"nome": "Chinelos", "grupo": "Masculino", "atributos": ["numeracao", "cor"]},
+      {"nome": "Botas", "grupo": "Masculino", "atributos": ["numeracao", "cor"]},
+      {"nome": "Rasteiras", "grupo": "Feminino", "atributos": ["numeracao", "cor"]},
+      {"nome": "Sapatinhos", "grupo": "Infantil", "atributos": ["numeracao", "cor"]}
+    ]
+  },
+  "otica": {
+    "nome": "Ótica",
+    "grupos": {
+      "Óculos de grau": ["Armações", "Lentes"],
+      "Óculos de sol": ["Masculinos", "Femininos", "Infantis"],
+      "Acessórios": ["Estojos", "Flanelas", "Cordões"]
+    },
+    "categorias": [
+      {"nome": "Armações", "grupo": "Óculos de grau", "atributos": ["cor"]},
+      {"nome": "Lentes", "grupo": "Óculos de grau", "atributos": []},
+      {"nome": "Masculinos", "grupo": "Óculos de sol", "atributos": ["cor"]},
+      {"nome": "Femininos", "grupo": "Óculos de sol", "atributos": ["cor"]},
+      {"nome": "Infantis", "grupo": "Óculos de sol", "atributos": ["cor"]},
+      {"nome": "Estojos", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Flanelas", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Cordões", "grupo": "Acessórios", "atributos": ["cor"]}
+    ]
+  },
+  "cosmeticos": {
+    "nome": "Cosméticos e perfumaria",
+    "grupos": {
+      "Cabelos": ["Shampoo", "Condicionador", "Máscara", "Finalizador"],
+      "Pele": ["Hidratante", "Protetor solar", "Limpeza facial"],
+      "Maquiagem": ["Base", "Batom", "Sombra", "Rímel"],
+      "Perfumes": ["Feminino", "Masculino"]
+    },
+    "categorias": [
+      {"nome": "Shampoo", "grupo": "Cabelos", "atributos": []},
+      {"nome": "Condicionador", "grupo": "Cabelos", "atributos": []},
+      {"nome": "Máscara", "grupo": "Cabelos", "atributos": []},
+      {"nome": "Finalizador", "grupo": "Cabelos", "atributos": []},
+      {"nome": "Hidratante", "grupo": "Pele", "atributos": []},
+      {"nome": "Protetor solar", "grupo": "Pele", "atributos": []},
+      {"nome": "Limpeza facial", "grupo": "Pele", "atributos": []},
+      {"nome": "Base", "grupo": "Maquiagem", "atributos": []},
+      {"nome": "Batom", "grupo": "Maquiagem", "atributos": ["cor"]},
+      {"nome": "Sombra", "grupo": "Maquiagem", "atributos": ["cor"]},
+      {"nome": "Rímel", "grupo": "Maquiagem", "atributos": []},
+      {"nome": "Feminino", "grupo": "Perfumes", "atributos": []},
+      {"nome": "Masculino", "grupo": "Perfumes", "atributos": []}
+    ]
+  },
+  "pet_shop": {
+    "nome": "Pet shop",
+    "grupos": {
+      "Alimentos": ["Ração", "Petiscos"],
+      "Acessórios": ["Coleiras", "Guias", "Brinquedos", "Camas", "Roupas"],
+      "Higiene": ["Shampoo", "Banho e tosa", "Tapete higiênico"]
+    },
+    "categorias": [
+      {"nome": "Ração", "grupo": "Alimentos", "atributos": []},
+      {"nome": "Petiscos", "grupo": "Alimentos", "atributos": []},
+      {"nome": "Coleiras", "grupo": "Acessórios", "atributos": ["tamanho", "cor"]},
+      {"nome": "Guias", "grupo": "Acessórios", "atributos": ["cor"]},
+      {"nome": "Brinquedos", "grupo": "Acessórios", "atributos": []},
+      {"nome": "Camas", "grupo": "Acessórios", "atributos": ["tamanho"]},
+      {"nome": "Roupas", "grupo": "Acessórios", "atributos": ["tamanho", "cor"]},
+      {"nome": "Shampoo", "grupo": "Higiene", "atributos": []},
+      {"nome": "Banho e tosa", "grupo": "Higiene", "atributos": []},
+      {"nome": "Tapete higiênico", "grupo": "Higiene", "atributos": []}
+    ]
+  },
+  "variedades": {
+    "nome": "Variedades e utilidades",
+    "grupos": {
+      "Casa e decoração": ["Utilidades domésticas", "Decoração", "Cozinha"],
+      "Papelaria": ["Cadernos", "Canetas", "Escritório"],
+      "Eletrônicos": ["Fones", "Cabos", "Acessórios"]
+    },
+    "categorias": [
+      {"nome": "Utilidades domésticas", "grupo": "Casa e decoração", "atributos": []},
+      {"nome": "Decoração", "grupo": "Casa e decoração", "atributos": []},
+      {"nome": "Cozinha", "grupo": "Casa e decoração", "atributos": []},
+      {"nome": "Cadernos", "grupo": "Papelaria", "atributos": []},
+      {"nome": "Canetas", "grupo": "Papelaria", "atributos": []},
+      {"nome": "Escritório", "grupo": "Papelaria", "atributos": []},
+      {"nome": "Fones", "grupo": "Eletrônicos", "atributos": []},
+      {"nome": "Cabos", "grupo": "Eletrônicos", "atributos": []},
+      {"nome": "Acessórios", "grupo": "Eletrônicos", "atributos": []}
+    ]
+  }
+}

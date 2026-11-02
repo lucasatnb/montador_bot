@@ -1,0 +1,16 @@
+{
+  "Alimentos": [
+    "Ração",
+    "Petiscos"
+  ],
+  "Acessórios": [
+    "Coleiras",
+    "Brinquedos",
+    "Camas",
+    "Roupas"
+  ],
+  "Higiene": [
+    "Shampoos",
+    "Tapetes higiênicos"
+  ]
+}

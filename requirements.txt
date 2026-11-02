@@ -1,0 +1,7 @@
+streamlit
+pandas
+rapidfuzz
+requests
+pillow
+# opcional, só para entregar .exe (--exe):
+# pyinstaller

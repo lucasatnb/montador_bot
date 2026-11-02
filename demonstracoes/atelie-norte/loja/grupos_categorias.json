@@ -1,0 +1,16 @@
+{
+  "Roupas": [
+    "Camisetas",
+    "Camisas",
+    "Calças",
+    "Bermudas",
+    "Jaquetas"
+  ],
+  "Calçados": [
+    "Tênis"
+  ],
+  "Acessórios": [
+    "Bonés",
+    "Cintos"
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "Roupas": [
+    "Camisetas",
+    "Camisas",
+    "Polos",
+    "Regatas",
+    "Calças",
+    "Shorts",
+    "Bermudas",
+    "Jaquetas",
+    "Moletons",
+    "Vestidos",
+    "Blusas",
+    "Saias",
+    "Croppeds",
+    "Casacos"
+  ],
+  "Calçados": [
+    "Tênis",
+    "Sapatos",
+    "Sandálias",
+    "Chinelos",
+    "Botas"
+  ],
+  "Acessórios": [
+    "Bonés",
+    "Cintos",
+    "Carteiras",
+    "Relógios",
+    "Óculos",
+    "Bolsas",
+    "Brincos",
+    "Colares"
+  ]
+}
